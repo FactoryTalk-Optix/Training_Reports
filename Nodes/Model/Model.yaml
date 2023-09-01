@@ -1,0 +1,25 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: EventLoggerGridFilter
+  Id: g=01fa41d49bca477699a51483013caceb
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"EventLogger1\""
+- Name: DataLoggerReport_Available
+  Id: g=81170114174e29cb34ade77b770a258b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: EventLoggerReport_Available
+  Id: g=c6120720669c2368ca9e7eadc1acd341
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: ReportFileName_toShow
+  Id: g=f05841c7946bdae69f3e018f991e699d
+  Type: BaseDataVariableType
+  DataType: ResourceUri
+  Value: "0"
+- File: Audit_Variables/Audit_Variables.yaml
+- File: DataLogger_Variables/DataLogger_Variables.yaml
